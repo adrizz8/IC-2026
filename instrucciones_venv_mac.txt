@@ -1,0 +1,20 @@
+# 1. Ve a la carpeta de la nueva práctica
+cd ~/Universidad/Cuarto/Ingenieria\ del\ Conocimiento/IC-2026/Practica\ 3
+
+# 2. Crea el entorno virtual (siempre con Python 3.12)
+/opt/homebrew/bin/python3.12 -m venv venv
+
+# 3. Actívalo
+source venv/bin/activate
+
+# 4. Actualiza pip (opcional pero recomendado)
+pip install --upgrade pip
+
+# 5. Instala las dependencias básicas
+pip install jupyter ipykernel numpy matplotlib
+
+# 6. Registra el kernel en Jupyter
+python -m ipykernel install --user --name=ic-practica3 --display-name "IC Practica 3"
+
+# 7. Si hay requirements.txt, instálalo
+pip install -r requirements.txt
