@@ -43,3 +43,5 @@ Desktop.ini
 .env
 *.env.local
 config.local.py
+
+Practica 5/creditcard.csv
